@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="750" viewBox="0 0 500 750">
+  <rect width="500" height="750" fill="#24252d"></rect>
+
+  <circle cx="250" cy="310" r="85" fill="none" stroke="#8c8e99" stroke-width="14"></circle>
+
+  <circle cx="220" cy="280" r="12" fill="#8c8e99"></circle>
+  <circle cx="280" cy="280" r="12" fill="#8c8e99"></circle>
+  <circle cx="220" cy="340" r="12" fill="#8c8e99"></circle>
+  <circle cx="280" cy="340" r="12" fill="#8c8e99"></circle>
+
+  <rect x="180" y="395" width="140" height="20" rx="10" fill="#8c8e99"></rect>
+
+  <text x="250" y="500" fill="#d2d3da" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">
+    Póster no disponible
+  </text>
+</svg>

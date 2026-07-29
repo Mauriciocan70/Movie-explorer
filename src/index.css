@@ -1,0 +1,29 @@
+@import url("./vendor/normalize.css");
+
+@import url("./blocks/app.css");
+@import url("./blocks/header.css");
+@import url("./blocks/home.css");
+@import url("./blocks/movies.css");
+@import url("./blocks/search-form.css");
+@import url("./blocks/footer.css");
+@import url("./blocks/not-found.css");
+@import url("./blocks/movie-list.css");
+@import url("./blocks/movie-card.css");
+@import url("./blocks/movie-modal.css");
+@import url("./blocks/preloader.css");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background-color: #101116;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input {
+  font-family: inherit;
+}

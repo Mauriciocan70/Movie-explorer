@@ -1,0 +1,32 @@
+.footer {
+  background-color: #0b0c10;
+  color: #8f929d;
+}
+
+.footer__content {
+  box-sizing: border-box;
+  width: min(100% - 32px, 1180px);
+  min-height: 72px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer__copyright,
+.footer__description {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 620px) {
+  .footer__content {
+    padding: 22px 0;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    text-align: left;
+  }
+}
